@@ -1,0 +1,29 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css';
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.header {
+  @apply text-4xl font-bold mt-8 mb-6;
+}
+
+.section {
+  @apply mb-8;
+}
+
+.section-title {
+  @apply text-2xl font-bold mb-4;
+}
+
+.section-content {
+  @apply text-lg;
+}
+
+.footer {
+  @apply text-center py-6 mt-12;
+}
